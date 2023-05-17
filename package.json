@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "19.x"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
@@ -17,14 +20,16 @@
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
     "@types/node": "^20.1.5",
+    "eslint": "^8.40.0",
+    "eslint-plugin-react": "^7.32.2",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "typedoc": "^0.24.7",
     "typescript": "^5.0.4"
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
-      "eslint . --fix"
+    "**/*.{ts,tsx}": [
+      "eslint --fix"
     ]
   }
 }
