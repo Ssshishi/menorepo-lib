@@ -3,7 +3,7 @@
     "prettier --no-error-on-unmatched-pattern --cache --parser=typescript --write",
     "eslint --fix"
   ],
-  "**/*.{ts,tsx}": [
+  "*/**/*.{ts,tsx}": [
     "prettier --no-error-on-unmatched-pattern --cache --parser=typescript --write",
     "eslint --fix"
   ]
