@@ -1,10 +1,12 @@
-import { PageContainer } from '@ant-design/pro-components';
-import React from 'react';
+import { PageContainer } from "@ant-design/pro-components";
+import React from "react";
 
 const HomePage: React.FC = () => {
+  const a = "12e2332 ";
+
   return (
     <PageContainer ghost>
-      <div>1221</div>
+      <div>1221 {a}</div>
     </PageContainer>
   );
 };
