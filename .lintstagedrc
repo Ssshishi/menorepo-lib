@@ -2,6 +2,9 @@
   "*.{ts,tsx}": [
     "prettier --no-error-on-unmatched-pattern --cache --parser=typescript --write",
     "eslint --fix"
+  ],
+  "./packages/**/src/**/*.{ts,tsx}": [
+    "prettier --no-error-on-unmatched-pattern --cache --parser=typescript --write",
+    "eslint --fix"
   ]
-  
 }
