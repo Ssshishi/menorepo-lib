@@ -1,10 +1,13 @@
 import React, { useState } from 'react'
 
-function App() {
+const App: React.FC = () => {
   const [count, setCount] = useState(0)
+
+  const a = "qwqweqw"
 
   return (
     <>
+    {a}
     </>
   )
 }
