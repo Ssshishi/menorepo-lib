@@ -1,4 +1,5 @@
 {
+  "name": "@react/umi4",
   "private": true,
   "author": "shenshi <shenshi@shouqianba.com>",
   "scripts": {
