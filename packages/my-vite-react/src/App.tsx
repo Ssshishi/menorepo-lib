@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const App: React.FC = () => {
-  const [count, setCount] = useState(0);
-
-  const a = '1212';
+  const a = '12212';
 
   return <>{a}</>;
 };

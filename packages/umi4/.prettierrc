@@ -1,11 +1,3 @@
 {
-  "extends": "../.prettierrc",
-  "overrides": [
-    {
-      "files": "src/*.{ts,tsx}",
-      "options": {
-        "singleQuote": true
-      }
-    }
-  ]
+  "extends": "../.prettierrc"
 }
