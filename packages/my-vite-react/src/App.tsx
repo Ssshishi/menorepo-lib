@@ -1,15 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const App: React.FC = () => {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
-  const a = "q"
+  const a = 'q ';
 
-  return (
-    <>
-    {a}
-    </>
-  )
-}
+  return <>{a}</>;
+};
 
-export default App
+export default App;
