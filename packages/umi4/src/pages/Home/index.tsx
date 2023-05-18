@@ -2,7 +2,7 @@ import { PageContainer } from "@ant-design/pro-components";
 import React from "react";
 
 const HomePage: React.FC = () => {
-  const a = "12e2332  ";
+  const a = "12122 ";
 
   return (
     <PageContainer ghost>
