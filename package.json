@@ -11,7 +11,10 @@
     "prepare": "husky install",
     "build": "pnpm -r build",
     "test": "pnpm -r test",
-    "lint": "lint-staged"
+    "lint": "lint-staged",
+    "taro3": "pnpm -F @react/taro3 dev:weapp",
+    "umi4": "pnpm -F @react/umi4 dev",
+    "vite": "pnpm -F @react/vite dev"
   },
   "keywords": [],
   "author": "",
